@@ -578,7 +578,7 @@ section .title::after{
 
   }
   #carousel .carousel-item{
-    height:720px;
+    height:660px;
     width:100%;
     min-height:350px;
     background:no-repeat center center scroll;
