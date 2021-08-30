@@ -1,17 +1,17 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
-        if(this.scrollY > 20){
+        if(this.scrollY > 550){
             $('.navbar').addClass("sticky");
         }else{
             $('.navbar').removeClass("sticky");
         }
 
         // scroll-up button show/hide script
-        if(this.scrollY > 500){
-            $('.scroll-up-btn').addClass("show");
+        if(this.scrollY < 551){
+            $('.scroll-up-btn').addClass('navbar-fixed-top');
         }else{
-            $('.scroll-up-btn').removeClass("show");
+            $('.scroll-up-btn').removeClass('navbar-fixed-top');
         }
     });
 
