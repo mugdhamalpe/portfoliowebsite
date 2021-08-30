@@ -1103,6 +1103,7 @@ border-color: rgb(220, 190, 20);
 /* navbar styling */
 .navbar{
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
