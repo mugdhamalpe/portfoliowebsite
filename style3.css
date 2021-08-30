@@ -597,24 +597,24 @@ section .title::after{
     padding:40px;
     color:white;
     animation-duration: 1s;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
     border-radius: 1rem;
   }
   #carousel .caption h2{
     font-size: 36px;
     text-shadow: 0.2rem 0.2rem 0.8rem white;
     animation-duration: 1s;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
   }
   #carousel .caption p{
       font-size: 22px;
     animation-duration: 1s;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
   }
 
   #carousel .caption a{
     animation-duration: 1s;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
   }
   .delicious-btn{
     display: inline-block!important;
